@@ -41,7 +41,7 @@ function rondGo() {
 	if(inputVal === "Anémone") {
 		location.href='carre.html';
 	} else if (indice >= 10) {
-		alert("Degré");
+		alert("Nous sommes 4 vivaces à partager la même racine mais notre A permet de devancer excellemment les autres");
 	} else  {
 		alert("Raté")
 		indice++;
