@@ -23,7 +23,7 @@ let indice = 0;
 function triangleGo() {
 	var inputVal = document.getElementById("code").value;
 	
-	if(inputVal === "Ponce") {
+	if(inputVal === "Bleuet") {
 		location.href='rond.html';
 	} else if (indice >= 10) {
 		alert("Code source");
@@ -38,9 +38,9 @@ function triangleGo() {
 function rondGo() {
 	var inputVal = document.getElementById("code").value;
 	
-	if(inputVal === "360") {
+	if(inputVal === "Anémone") {
 		location.href='carre.html';
-	} else if (indice >= 5) {
+	} else if (indice >= 10) {
 		alert("Degré");
 	} else  {
 		alert("Raté")
@@ -53,9 +53,24 @@ function rondGo() {
 function carreGo() {
 	var inputVal = document.getElementById("code").value;
 	
-	if(inputVal === "Gin du jardin") {
+	if(inputVal === "Lavande") {
 		location.href='https://www.youtube.com/watch?v=ltSQ-czeDEE';
-	} else if (indice >= 5) {
+	} else if (indice >= 10) {
+		alert("CTRL+A");
+	} else  {
+		alert("Raté")
+		indice++;
+		console.log(indice);
+	}
+};
+
+//page octo
+function octoGo() {
+	var inputVal = document.getElementById("code").value;
+	
+	if(inputVal === "Echinacée") {
+		location.href='https://www.youtube.com/watch?v=ltSQ-czeDEE';
+	} else if (indice >= 10) {
 		alert("CTRL+A");
 	} else  {
 		alert("Raté")
