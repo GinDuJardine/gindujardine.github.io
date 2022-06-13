@@ -25,7 +25,7 @@ function triangleGo() {
 	
 	if(inputVal === "42") {
 		location.href='rond.html';
-	} else if (indice >= 5) {
+	} else if (indice >= 10) {
 		alert("Code source");
 	} else  {
 		alert("Raté")
