@@ -1,0 +1,27 @@
+.globalWrapper {
+	margin: auto;
+	width: 50%;
+	height: 50%;
+	text-align: center;
+	margin-top: 20%;
+}
+
+#codeButton {
+	margin: 1%;
+	border-radius: 10px;
+	
+}
+
+.rond, .square{
+	margin-bottom: 1%;
+}
+
+.blanc {
+	color: white;
+	position: fixed;
+}
+
+input {
+	width: 25%;
+	border-radius: 10px;
+}
