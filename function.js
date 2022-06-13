@@ -23,7 +23,7 @@ let indice = 0;
 function triangleGo() {
 	var inputVal = document.getElementById("code").value;
 	
-	if(inputVal === "42") {
+	if(inputVal === "Ponce") {
 		location.href='rond.html';
 	} else if (indice >= 10) {
 		alert("Code source");
