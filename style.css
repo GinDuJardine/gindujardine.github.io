@@ -33,6 +33,10 @@
 	position: fixed;
 }
 
+.reponse {
+	text-align: left; 
+}
+
 input {
 	width: 25%;
 	border-radius: 10px;
