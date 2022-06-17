@@ -24,7 +24,7 @@ function indexGo() {
 	var inputVal = document.getElementById("code").value;
 	
 	if(inputVal === "ponce") {
-		location.href='page2.html';
+		location.href='enigme1.html';
 	} else if (indice >= 5) {
 		alert("Code source");
 	} else  {
@@ -39,7 +39,7 @@ function page2Go() {
 	var inputVal = document.getElementById("code").value;
 	
 	if(inputVal === "bleuet") {
-		location.href='page3.html';
+		location.href='enigme2.html';
 	} else if (indice >= 5) {
 		alert("Raté");
 	} else  {
@@ -54,7 +54,7 @@ function page3Go() {
 	var inputVal = document.getElementById("code").value;
 	
 	if(inputVal === "anémones") {
-		location.href='page4.html';
+		location.href='enigme3.html';
 	} else if (indice >= 5) {
 		alert("Raté");
 	} else  {
@@ -70,7 +70,7 @@ function page4Go() {
 	var inputVal = document.getElementById("code").value;
 	
 	if(inputVal === "lilas") {
-		location.href='page5.html';
+		location.href='enigme4.html';
 	} else if (indice >= 5) {
 		alert("Raté");
 	} else  {
