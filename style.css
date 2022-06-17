@@ -26,6 +26,10 @@
 .nain {
 	margin-top: -35%;
 }
+
+.final {
+	width: 75%;
+}
 	
 
 .blanc {
@@ -34,7 +38,7 @@
 }
 
 .reponse {
-	text-align: left; 
+	margin-top: 4%; 
 }
 
 input {
