@@ -12,9 +12,21 @@
 	
 }
 
-.rond, .square{
+.rond, .square, .shape, .nain{
 	margin-bottom: 1%;
 }
+.rond, .shape {
+	margin-top: -15%;
+}
+
+.shape, .nain {
+	width: 100%;
+}
+
+.nain {
+	margin-top: -35%;
+}
+	
 
 .blanc {
 	color: white;

@@ -19,13 +19,13 @@ document.getElementById("code").addEventListener("keypress", function(event) {
 //indice for if else
 let indice = 0;
 
-//page triangle
-function triangleGo() {
+//page index
+function indexGo() {
 	var inputVal = document.getElementById("code").value;
 	
-	if(inputVal === "Bleuet") {
-		location.href='rond.html';
-	} else if (indice >= 10) {
+	if(inputVal === "ponce") {
+		location.href='page2.html';
+	} else if (indice >= 5) {
 		alert("Code source");
 	} else  {
 		alert("Raté")
@@ -34,14 +34,14 @@ function triangleGo() {
 	}
 };
 
-//page rond
-function rondGo() {
+//page 2
+function page2Go() {
 	var inputVal = document.getElementById("code").value;
 	
-	if(inputVal === "Anémone") {
-		location.href='carre.html';
-	} else if (indice >= 10) {
-		alert("Nous sommes 4 vivaces à partager la même racine mais notre A permet de devancer excellemment les autres");
+	if(inputVal === "bleuet") {
+		location.href='page3.html';
+	} else if (indice >= 5) {
+		alert("Raté");
 	} else  {
 		alert("Raté")
 		indice++;
@@ -49,14 +49,14 @@ function rondGo() {
 	}
 };
 
-//page carré
-function carreGo() {
+//page 3
+function page3Go() {
 	var inputVal = document.getElementById("code").value;
 	
-	if(inputVal === "Lavande") {
-		location.href='https://www.youtube.com/watch?v=ltSQ-czeDEE';
-	} else if (indice >= 10) {
-		alert("CTRL+A");
+	if(inputVal === "anémones") {
+		location.href='page4.html';
+	} else if (indice >= 5) {
+		alert("Raté");
 	} else  {
 		alert("Raté")
 		indice++;
@@ -64,17 +64,34 @@ function carreGo() {
 	}
 };
 
-//page octo
-function octoGo() {
+
+//page 4
+function page4Go() {
 	var inputVal = document.getElementById("code").value;
 	
-	if(inputVal === "Echinacée") {
-		location.href='https://www.youtube.com/watch?v=ltSQ-czeDEE';
-	} else if (indice >= 10) {
-		alert("CTRL+A");
+	if(inputVal === "lilas") {
+		location.href='page5.html';
+	} else if (indice >= 5) {
+		alert("Raté");
 	} else  {
 		alert("Raté")
 		indice++;
 		console.log(indice);
 	}
 };
+
+//page 5
+function page5Go() {
+	var inputVal = document.getElementById("code").value;
+	
+	if(inputVal === "échinacée") {
+		location.href='page6.html';
+	} else if (indice >= 5) {
+		alert("Alors, c'est quoi cette fleur ?");
+	} else  {
+		alert("Raté")
+		indice++;
+		console.log(indice);
+	}
+};
+
