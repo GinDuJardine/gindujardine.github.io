@@ -85,7 +85,7 @@ function page5Go() {
 	var inputVal = document.getElementById("code").value;
 	
 	if(inputVal === "échinacée") {
-		location.href='page6.html';
+		location.href='vivelejardinnage.html';
 	} else if (indice >= 5) {
 		alert("Alors, c'est quoi cette fleur ?");
 	} else  {
